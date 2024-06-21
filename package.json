@@ -1,6 +1,6 @@
 {
   "name": "@capacitor-community/barcode-scanner",
-  "version": "4.0.1",
+  "version": "6.1.0",
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -43,25 +43,26 @@
     "verify:web": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^5.0.1",
-    "@capacitor/core": "^5.0.1",
-    "@capacitor/docgen": "0.2.1",
-    "@capacitor/ios": "^5.0.1",
-    "@ionic/eslint-config": "^0.3.0",
-    "@ionic/prettier-config": "^3.0.0",
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/docgen": "^0.2.2",
+    "@capacitor/ios": "^6.1.0",
+    "@ionic/eslint-config": "^0.4.0",
+    "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^1.1.2",
-    "eslint": "^8.40.0",
-    "husky": "^8.0.3",
-    "prettier": "~2.8.8",
-    "prettier-plugin-java": "~2.1.0",
-    "pretty-quick": "^3.1.3",
-    "rimraf": "^5.0.0",
-    "rollup": "^3.21.5",
+    "@types/node": "^20.14.7",
+    "eslint": "^9.5.0",
+    "husky": "^9.0.11",
+    "prettier": "~3.3.2",
+    "prettier-plugin-java": "~2.6.0",
+    "pretty-quick": "^4.0.0",
+    "rimraf": "^5.0.7",
+    "rollup": "^4.18.0",
     "swiftlint": "^1.0.2",
-    "typescript": "~5.0.4"
+    "typescript": "~5.5.2"
   },
   "peerDependencies": {
-    "@capacitor/core": "^5.0.0"
+    "@capacitor/core": "^6.1.0"
   },
   "capacitor": {
     "ios": {
@@ -84,7 +85,7 @@
     "example": "examples"
   },
   "dependencies": {
-    "@zxing/browser": "^0.1.3",
-    "@zxing/library": "^0.20.0"
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.1"
   }
 }
